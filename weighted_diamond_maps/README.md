@@ -78,6 +78,9 @@ uv run python infer.py \
 The default inference command uses FLUX defaults `n=25`, `g=24`,
 and `snr=1.1`; SANA defaults `n=20`, `g=5`, and `snr=20`.
 
+
+![Qualitative Results Weighted Diamond Maps](assets/qualitative_results.png)
+
 ## Benchmark Generation
 
 Generate FLUX Weighted Diamond Maps samples for GenEval:
@@ -119,8 +122,6 @@ uv run python benchmark_generate.py \
 For FLUX Weighted Diamond Maps, the benchmark command expands to particle
 counts `1,2,4,8,16,32` with `n=25`, `g=10`, and `snr=1.5`.
 
-
-![Qualitative Results Weighted Diamond Maps](assets/qualitative_results.png)
 
 ## Outputs
 
