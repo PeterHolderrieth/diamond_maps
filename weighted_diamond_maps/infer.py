@@ -86,7 +86,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--num-inference-steps", type=int, default=None)
     parser.add_argument("--num-guidance-steps", type=int, default=None)
     parser.add_argument("--guidance-start-step", type=int, default=1)
-    parser.add_argument("--num-reward-particles", type=int, default=4)
+    parser.add_argument("--num-reward-particles", type=int, default=None)
     parser.add_argument("--snr-factor", type=float, default=None)
     parser.add_argument(
         "--particle-weighting",
@@ -137,6 +137,8 @@ def apply_family_defaults(args: argparse.Namespace) -> None:
             args.select_best_scored_image = False
         if args.sana_jump_to_end_after_guidance is None:
             args.sana_jump_to_end_after_guidance = False
+        if args.num_reward_particles is None:
+            args.num_reward_particles = 16
         return
 
     if args.num_inference_steps is None:
@@ -149,6 +151,8 @@ def apply_family_defaults(args: argparse.Namespace) -> None:
         args.select_best_scored_image = True
     if args.sana_jump_to_end_after_guidance is None:
         args.sana_jump_to_end_after_guidance = True
+    if args.num_reward_particles is None:
+        args.num_reward_particles = 4
 
 
 def load_prompts(args: argparse.Namespace) -> list[str]:
