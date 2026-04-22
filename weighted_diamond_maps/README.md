@@ -146,7 +146,7 @@ UniGenBench/eval_data/en/<run_name>/<prompt_id>_<image_id>.png
 ### CFG
 
 `--cfg-guidance-scale` controls the pipeline guidance value and defaults to
-`1.0`. We use `--cfg-guidance-scale=1.0` in all our experiments and `--gradient-norm-scale 20.0` is intended for that setting.
+`1.0`. We use `--cfg-guidance-scale=1.0` in all our experiments and `--gradient-norm-scale 20.0` is intended for that setting. For the FLUX Flow Map it is possible to adjust `cfg` while for SANA-Sprint it is fixed.
 If you raise FLUX guidance to values like `3.5`, increase the gradient norm
 scale too; `40.0` is a useful starting point for these higher-CFG runs:
 
