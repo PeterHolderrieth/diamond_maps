@@ -1,6 +1,6 @@
 # Diamond Maps: Efficient Reward Alignment via Stochastic Flow Maps
 
-[[arXiv]](https://arxiv.org/abs/2602.05993)
+[[arXiv](https://img.shields.io/badge/arXiv-2602.05993-b31b1b.svg)](https://arxiv.org/abs/2602.05993)
 
 **Authors**: Peter Holderrieth\*, Douglas Chen\*, Luca Eyring\*, Ishin Shah, Giri Anantharaman, Yutong He, Zeynep Akata, Tommi Jaakkola, Nicholas Matthew Boffi, Max Simchowitz
 
