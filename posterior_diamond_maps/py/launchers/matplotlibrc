@@ -1,0 +1,41 @@
+####### nmboffi sensible matplotlib defaults #######
+axes.grid : False
+axes.grid.which : both
+xtick.minor.visible : True
+ytick.minor.visible : True
+xtick.direction : in
+ytick.direction : in
+xtick.major.width : 0.25
+ytick.major.width : 0.25
+xtick.minor.width : 0.15
+ytick.minor.width : 0.15
+axes.linewidth : 0.25
+xtick.major.size : 2.0
+ytick.major.size : 2.0
+xtick.minor.size : 1.0
+ytick.minor.size : 1.0
+lines.antialiased : True
+axes.facecolor : white
+grid.color : 0.9
+grid.alpha : 0.5
+text.usetex : False
+font.family : serif
+figure.figsize : 8, 4
+figure.titlesize : 7.5
+font.size : 10
+legend.fontsize : 7.5
+figure.dpi : 300
+
+# A small amount of padding between subplots
+figure.subplot.wspace : 0.05
+figure.subplot.hspace : 0.01
+
+# Keep these to remove the axis lines/labels
+axes.spines.left   : False
+axes.spines.right  : False
+axes.spines.top    : False
+axes.spines.bottom : False
+xtick.bottom       : False
+xtick.labelbottom  : False
+ytick.left         : False
+ytick.labelleft    : False

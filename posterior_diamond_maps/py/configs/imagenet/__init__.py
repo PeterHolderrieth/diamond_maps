@@ -1,0 +1,1 @@
+"""ImageNet latent release configs."""
