@@ -16,7 +16,7 @@ Flow and diffusion models produce high-quality samples, but adapting them to use
 
 We introduce two Diamond Map designs:
 
-### [Posterior Diamond Maps](./posterior_diamond_maps) _(code coming soon)_
+### [Posterior Diamond Maps](./posterior_diamond_maps)
 One-step posterior samplers distilled from GLASS Flows. These offer optimal accuracy and efficiency at inference time by distilling stochastic transitions into a single-step sampler.
 
 ### [Weighted Diamond Maps](./weighted_diamond_maps)
